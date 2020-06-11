@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426674266781",
+    "firebase_url": "https://clonedgithub.firebaseio.com",
+    "project_id": "clonedgithub",
+    "storage_bucket": "clonedgithub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426674266781:android:abe1abc64b048ff360ea74",
+        "android_client_info": {
+          "package_name": "com.manishakumari.githubrepositaries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426674266781-al68739fvuboea8us5s7ker3n24on86a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manishakumari.githubrepositaries",
+            "certificate_hash": "81e913176772be023494b575d5a20c8be006b801"
+          }
+        },
+        {
+          "client_id": "426674266781-im89ac0p6sc1mn9i6t6jsgjl42jdm5v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn_5GxF9TzDzByBFh_eGI-qRrFFkat_9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426674266781-im89ac0p6sc1mn9i6t6jsgjl42jdm5v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

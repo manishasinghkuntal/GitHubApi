@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GithubRepositories</string>
+    <string name="web_client_id">426674266781-im89ac0p6sc1mn9i6t6jsgjl42jdm5v9.apps.googleusercontent.com</string>
+    <string name="logout">Logout</string>
+    <string name="skip_this_step">Skip this step</string>
+    <string name="click_me_to_try_again">Click me to try again!</string>
+</resources>
