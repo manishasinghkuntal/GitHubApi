@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#91B2D3"
+    android:background="@color/bluebg"
     tools:context=".Screens.SignInActivity">
 
     <ImageView
