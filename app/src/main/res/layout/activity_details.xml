@@ -24,9 +24,9 @@
         android:orientation="horizontal"
         android:layout_marginTop="6dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_height="150dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:id="@+id/userimage_details"/>
@@ -40,42 +40,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/username_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/email_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/location_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/joindate_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/follower_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/following_details"
-                android:layout_marginBottom="6dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16sp"/>
 
         </LinearLayout>
@@ -90,6 +90,7 @@
             app:iconifiedByDefault="false"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            app:queryHint="search"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             app:queryBackground="@null" />

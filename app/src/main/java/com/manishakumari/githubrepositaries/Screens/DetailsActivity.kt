@@ -112,7 +112,8 @@ class DetailsActivity : AppCompatActivity() {
                         .into(userimage_details)
                     email_details.text = "Email : "+responseBody!!.email
                     location_details.text = "Location : "+responseBody!!.location
-                    joindate_details.text = "Join Date : "+responseBody!!.createdAt
+                    val parts = responseBody!!.createdAt!!.split("T")
+                    joindate_details.text = "Join Date : "+ parts[0]
                     follower_details.text = "Followers : "+ responseBody!!.followers.toString()
                     following_details.text = "Following : "+responseBody!!.following.toString()
 

@@ -112,7 +112,8 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    private fun intentCall(){
+    private fun
+            intentCall(){
         val intent = Intent(this,
             MainActivity::class.java)
         startActivity(intent)
