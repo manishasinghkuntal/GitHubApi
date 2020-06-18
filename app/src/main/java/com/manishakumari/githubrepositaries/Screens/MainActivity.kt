@@ -2,6 +2,7 @@ package com.manishakumari.githubrepositaries.Screens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -19,6 +20,8 @@ import com.jeevansatya.githubsearcher.Utils.UtilsClass.BASEURL
 import com.manishakumari.githubrepositaries.R
 import com.wang.avi.AVLoadingIndicatorView
 import kotlinx.android.synthetic.main.activity_main.*
+import okhttp3.MediaType
+import okhttp3.RequestBody
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -56,6 +59,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun apiCall() {
+
         retrofit = Retrofit.Builder()
             .baseUrl(UtilsClass.BASEURL)
             .addConverterFactory(GsonConverterFactory.create())
@@ -115,7 +119,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupUI() {
         recyclerView = findViewById(R.id.recyclerView)
-        recyclerView!!.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
+        recyclerView!!.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
         loading = findViewById(R.id.loading)
 
         clickme.setOnClickListener {
